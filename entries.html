@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Swag Street Journal</title>
+</head>
+<body>
+    <section>
+
+    <section class="navBar">
+        <img class="logoImg" src="images/ssjlogo.png" alt="swag street logo">
+            <nav class="navButtons">
+                <ul><a href="index.html">Home</a></ul>
+                <ul><a href="entries.html">Entries</a></ul>
+                <ul><a href="about.html">About</a></ul>
+            </nav>
+        </section>
+
+    <section class="bodyWrappers">
+        <h2>Recent Entries</h2>
+        <section>
+            <form action="">
+                <fieldset>
+                    <label for="journalDate">Date</label>
+                    <input type="date" name="journalDate" id="journalDate">
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <label for="journalName">Entry Name</label>
+                    <textarea name="journalName" id="journalName" cols="30" rows="1"></textarea>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <label for="journalContent">Entry Content</label>
+                    <textarea name="journalContent" id="journalContent" cols="30" rows="1"></textarea>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <label for="journalMood">Mood</label>
+                    <select id="journalMood">
+                      <option value="sad">Sad</option>
+                      <option value="happy">Happy</option>
+                      <option value="mid">Mid</option>
+                      <option value="chilled">Chilled</option>
+                    </select>
+                </fieldset>
+            </form>
+        </section>
+    </section>
+
+    <section>
+    </section>
+
+    </section>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

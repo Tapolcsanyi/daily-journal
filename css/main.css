@@ -1,0 +1,22 @@
+.navBar {
+    padding: 10px;
+    background-color: rgb(180, 180, 255);
+}
+.bodyText {
+    padding: 25px;
+}
+.navButtons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logoImg {
+    display:flex;
+    justify-content: flex-start;
+}
+.bodyWrappers {
+    display: flex;
+    flex-direction: column;
+}
